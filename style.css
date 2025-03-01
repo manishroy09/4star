@@ -68,8 +68,10 @@ body {
 }
 /* Hero Section */
 
-
-
+  .swiper-slide img{
+    width: 100%;
+    height: auto;
+  }
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     
