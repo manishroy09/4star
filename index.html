@@ -3,148 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4 Star</title>
+    <title>Four Star</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-   <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-  
 </head>
 <body>
-    <input type="checkbox" id="check">
-    <nav class="navbar">
-                <img src="4star.jpeg" alt="Aovis Logo">
-            
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <label for="check">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-    </nav>
-
-    <main>
-
-     
-      <section class="slider_container">
-        <!-- Swiper -->
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="img/slider1.png" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/slider2.png" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/slider3.png" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/slider4.png" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/slider5.png" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/slider6.png" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/slider7.png" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/slider8.png" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="img/slider9.png" alt="">
-      </div>
-    </div>
-  </div>
-      </section>
-
-      <section class="container1">
-        <div class="trailer">
-          <img src="img/kalki.jpg" alt="">
-          <i class="fa-solid fa-play"></i>
-        </div>
-      </section>
-         
-    </main>
-
-    <footer>
-        <div class="top-footer">
-            <div class="container">
-                <div class="logo">
-                    <img src="4star.jpeg" alt="">
-                </div>
-                <div class="right-section">
-                    <div class="links">
-                        <a href="#">Help</a>
-                        <span>/</span>
-                        <a href="#">Privacy Policy</a>
-                    </div>
-                    <div class="social-icons">
-                        <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#" class="social-icon"><i class="fa-brands fa-pinterest"></i></a>
-                        <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                </div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>4<i class="fa-solid fa-star"></i></h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="right-icons">
+                <a href="#" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="profile-icon"><i class="fa-solid fa-user"></i></a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
-        <div class="bottom-footer">
-            <div class="container">
-                <div class="footer-section">
-                    <h3>Buy movie tickets easily with Aovis system nationwide</h3>
-                    <button class="get-ticket-btn">Get Your Ticket</button>
-                </div>
-                <div class="footer-section">
-                    <h3>Movies</h3>
-                    <ul>
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Adventure</a></li>
-                        <li><a href="#">Animation</a></li>
-                        <li><a href="#">Comedy</a></li>
-                        <li><a href="#">Crime</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Links</h3>
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">My account</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Latest Events</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section newsletter">
-                    <h3>Newsletter</h3>
-                    <p>Subscribe to Leitmotif newsletter this very day.</p>
-                    <div class="newsletter-form">
-                        <input type="email" placeholder="Email Address">
-                        <button class="subscribe-btn">▶</button>
-                    </div>
-                    <label>
-                        <input type="checkbox">
-                        I agree to all terms and policies of the company
-                    </label>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {});
-  </script>
+    </header>
     <script src="script.js"></script>
 </body>
 </html>
